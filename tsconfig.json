@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
-      "target": "es5",
-      "lib": ["dom", "es2015"],
+      "target": "ES2016",
+      "lib": ["dom", "ES2016"],
       "allowJs": true,
       "skipLibCheck": true,
       "esModuleInterop": true,
@@ -10,7 +10,8 @@
       "forceConsistentCasingInFileNames": true,
       "moduleResolution": "node",
       "module": "esnext",
-      "jsx": "react-jsx"
+      "jsx": "react-jsx",
+      "types": ["jest", "react", "react-dom"] // Make sure jest and react types are here
     },
     "include": [
       "src"
